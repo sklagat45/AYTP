@@ -9,12 +9,17 @@ import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
 import NavBar from "./components/NavBar";
 import Login from "./components/Login";
 import Home from "./components/Home";
+import AdminNav from "./components/AdminNav";
 import Signin from "./components/Signin";
+import Admin from "./components/Admin";
+import Testing from "./components/Testing";
 
 function App() {
     return(
         <div className="App">
-            <Home />
+            <AdminNav />
+            <Admin />
+            <Testing />
         </div>
     )
 }
